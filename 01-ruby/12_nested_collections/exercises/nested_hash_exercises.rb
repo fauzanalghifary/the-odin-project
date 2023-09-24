@@ -4,7 +4,7 @@ def find_language_information(languages, language_name)
 
   # the languages hash will look something like this:
   # {
-  #   ruby: { initial_release: 'December 25, 1996', is_beautiful?: true },
+  #   01-ruby: { initial_release: 'December 25, 1996', is_beautiful?: true },
   #   javascript: { initial_release: 'December 4, 1995', is_beautiful?: false }
   # }
   languages[language_name]
@@ -52,7 +52,7 @@ def find_language_facts(languages, language_name, fact_index = 0)
 
   # the revised languages hash will look something like this:
   # {
-  #   ruby: { facts: ['fact 0', 'fact 1'],
+  #   01-ruby: { facts: ['fact 0', 'fact 1'],
   #           initial_release: 'December 25, 1996',
   #           is_beautiful?: true },
 

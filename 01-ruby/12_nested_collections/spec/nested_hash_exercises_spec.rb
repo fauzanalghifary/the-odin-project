@@ -10,8 +10,8 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    context 'when the given language name is ruby' do
-      it 'returns the information for ruby' do
+    context 'when the given language name is 01-ruby' do
+      it 'returns the information for 01-ruby' do
         expected_output = { initial_release: 'December 25, 1996', is_beautiful?: true }
         expect(find_language_information(hash, :ruby)).to eq(expected_output)
       end
@@ -34,7 +34,7 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    it 'adds is_beautiful?: true k/v pair to the ruby nested hash' do
+    it 'adds is_beautiful?: true k/v pair to the 01-ruby nested hash' do
       expected_output = {
         ruby: { is_beautiful?: true, initial_release: 'December 25, 1996' },
         javascript: { is_beautiful?: false }
@@ -90,7 +90,7 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    it 'removes the is_beautiful? k/v pair from the ruby nested hash' do
+    it 'removes the is_beautiful? k/v pair from the 01-ruby nested hash' do
       expected_output = {
         ruby: { initial_release: 'December 25, 1996' },
         javascript: { is_beautiful?: false, initial_release: 'December 4, 1995' }
@@ -115,7 +115,7 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    it 'removes the ruby hash' do
+    it 'removes the 01-ruby hash' do
       expected_output = {
         javascript: { is_beautiful?: false, initial_release: 'December 4, 1995' }
       }
@@ -131,7 +131,7 @@ RSpec.describe 'Nested hash exercises' do
   end
 
   describe 'find beautiful languages exercise' do
-    context 'when only ruby is beautiful' do
+    context 'when only 01-ruby is beautiful' do
       let(:hash) do
         {
           ruby: { is_beautiful?: true, initial_release: 'December 25, 1996' },
@@ -140,7 +140,7 @@ RSpec.describe 'Nested hash exercises' do
         }
       end
 
-      it 'returns a hash with only ruby' do
+      it 'returns a hash with only 01-ruby' do
         expected_output = {
           ruby: { is_beautiful?: true, initial_release: 'December 25, 1996' }
         }
@@ -180,7 +180,7 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    it 'returns the first fact for ruby' do
+    it 'returns the first fact for 01-ruby' do
       expected_output = 'was made for programmer happiness'
       expect(find_language_facts(hash, :ruby)).to eq(expected_output)
     end
