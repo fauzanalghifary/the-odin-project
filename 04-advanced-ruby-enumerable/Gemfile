@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+ruby File.read(".ruby-version").strip
+
+gem 'rspec', '~> 3.13'
+gem 'rubocop', require: false
