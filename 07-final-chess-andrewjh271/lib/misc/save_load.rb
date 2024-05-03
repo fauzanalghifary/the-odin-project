@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'yaml'
-require_relative 'misc/color'
 
 # Handles saving and loading games
 module SaveLoad

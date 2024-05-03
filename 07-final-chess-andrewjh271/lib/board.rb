@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'escape_sequences'
+require_relative 'misc/escape_sequences'
 require_relative 'misc/color'
 require_relative 'pieces/knight'
 require_relative 'pieces/rook'

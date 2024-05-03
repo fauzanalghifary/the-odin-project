@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require_relative 'board'
-require_relative 'escape_sequences'
+require_relative 'misc/escape_sequences'
 require_relative 'misc/color'
-require_relative 'save_load'
-require_relative 'instructions'
+require_relative 'misc/save_load'
+require_relative 'misc/instructions'
 require_relative 'human'
 require_relative 'computer'
 require 'io/console'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'misc/color'
-require_relative 'escape_sequences'
+require_relative 'misc/escape_sequences'
 require_relative 'board'
 require 'io/console'
 

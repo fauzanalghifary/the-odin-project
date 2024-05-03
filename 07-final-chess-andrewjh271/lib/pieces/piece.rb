@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../piece_square_tables'
+require_relative './piece_square_tables'
 
 # parent class for all pieces
 class Piece

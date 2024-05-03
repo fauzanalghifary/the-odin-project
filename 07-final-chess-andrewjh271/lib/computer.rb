@@ -1,7 +1,7 @@
 require_relative 'board'
 require_relative 'misc/color'
-require_relative 'korchnoi'
-require_relative 'escape_sequences'
+require_relative 'misc/korchnoi'
+require_relative 'misc/escape_sequences'
 
 class Computer
   include Korchnoi

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'piece'
-require_relative '../direction_set'
+require_relative 'direction_set'
 
 # Parent class for White and Black Queens
 class Queen < Piece
